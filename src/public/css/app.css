@@ -1,0 +1,13 @@
+.card-course-item {
+  margin-top: 16px; }
+
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin: 0px 4px; }
+
+.checkbox-select-all-wrapper {
+  gap: 20px; }
+  .checkbox-select-all-wrapper .checkbox-select-all-options {
+    width: 200px; }
