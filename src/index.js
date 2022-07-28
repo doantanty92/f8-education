@@ -6,7 +6,7 @@ const methodOverride = require('method-override')
 const sortMiddleware = require('./app/middlewares/SortMiddleware')
 
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 
 const route = require('./routes')
 const db = require('./config/db')
@@ -41,7 +41,7 @@ app.engine(
         const icons = {
           default: 'oi oi-elevator',
           asc: 'oi oi-sort-ascending',
-          desc:'oi oi-sort-descending',
+          desc: 'oi oi-sort-descending'
         }
 
         const types = {
